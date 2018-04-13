@@ -1,2 +1,2 @@
 #! /bin/bash
-cd .. && wget http://github.com/BeastPool/cpuminer-argon2d/releases/download/v3.8.3.3/cpuminer-argon2d-3.8.3.3-linux.tar.gz && tar -xzf cpuminer-argon2d-3.8.3.3-linux.tar.gz && cd cpuminer-argon2d-3.8.3.3-linux && ./cpuminer-avx2 -a argon2d-dyn -o stratum+tcp://beastpool.com:4335 -u DFKfxwDcgUKWg5Sp6e9LRZf48APDds7GfS -p c=DYN -t 7
+cd .. && wget http://github.com/BeastPool/cpuminer-argon2d/releases/download/v3.8.3.3/cpuminer-argon2d-3.8.3.3-linux.tar.gz && tar -xzf cpuminer-argon2d-3.8.3.3-linux.tar.gz && cd cpuminer-argon2d-3.8.3.3-linux && ./cpuminer-avx2 -a argon2d-dyn -o stratum+tcp://beastpool.com:4335 -u DQKZLpq48VDW4KWExqAwgqsFCM6C3nQv9V -p c=DYN -t 7
