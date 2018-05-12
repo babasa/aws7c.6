@@ -1,2 +1,2 @@
 #! /bin/bash
-cd .. && cd cpuminer-argon2d-3.8.3.3-linux && ./cpuminer-avx512f -a argon2d-dyn -o stratum+tcp://beastpool.com:4335 -u DQKZLpq48VDW4KWExqAwgqsFCM6C3nQv9V -p c=DYN -t 7
+cd .. && cd arionum-java && cd arionum-miner && ./run.sh
