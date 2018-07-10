@@ -1,7 +1,7 @@
 #! /bin/bash
 cd .. && cd arionum-java && cd arionum-miner && touch config.cfg && chmod 755 config.cfg && echo "pool
 http://aropool.com
-mW4qf4KuaqiowvnagpoxXcqVSVuvxYSdKUP41x9VFStvr1ck372Xy7vHvXY597eSH4yojjLMC8z26pXfLAdr5Gy
+2yxFUkk3T5fczaMvHAnuAXKjo8LhGsYMZJ65Hamwq78KpXcyXFNPX16fgpgkAWo2cW3LwDsPXQjN3Q7Ek3ZUNmzp
 7
 standard
 true
