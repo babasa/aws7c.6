@@ -1,9 +1,2 @@
 #! /bin/bash
-cd .. && sudo apt-get update && sudo apt-get -y install openjdk-8-jdk maven git gcc make build-essential && rm -rf danjav && mkdir danjav && cd danjav && git clone https://github.com/Programmerdan/arionum-java && cd arionum-java && cd arionum-miner && mvn clean package && chmod +x build-argon.sh && ./build-argon.sh && touch config.cfg && chmod 755 config.cfg && echo "pool
-http://aropool.com
-mW4qf4KuaqiowvnagpoxXcqVSVuvxYSdKUP41x9VFStvr1ck372Xy7vHvXY597eSH4yojjLMC8z26pXfLAdr5Gy
-7
-standard
-true
-53a9f527d1b
-" > config.cfg && ./run.sh
+rm -rf ariominer && sudo apt update && sudo apt -y install ocl-icd-opencl-dev && git clone http://github.com/bogdanadnan/ariominer.git && cd ariominer && mkdir build && cd build && cmake .. && make && ./ariominer --mode miner --pool http://aropool.com --wallet 2yxFUkk3T5fczaMvHAnuAXKjo8LhGsYMZJ65Hamwq78KpXcyXFNPX16fgpgkAWo2cW3LwDsPXQjN3Q7Ek3ZUNmzp --name dadum --cpu-intensity 95 --gpu-intensity-cblocks 95 --gpu-intensity-gblocks 95
